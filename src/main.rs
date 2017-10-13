@@ -11,5 +11,7 @@ fn main() {
 
     //hello::formatting::test();
 
-    primitives::prim::test();
+    //primitives::prim::test()
+    // primitives::tuple::test();
+    primitives::arr_slice::test();
 }
