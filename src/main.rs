@@ -16,5 +16,6 @@ fn main() {
     // primitives::tuple::test();
     //primitives::arr_slice::test();
     //custom_type::structures::test();
-    custom_type::enums::test();
+    //custom_type::enums::test();
+    custom_type::uses::test();
 }
