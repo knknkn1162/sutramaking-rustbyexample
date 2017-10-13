@@ -1,5 +1,6 @@
 mod hello;
 mod primitives;
+mod custom_type;
 
 fn main() {
     //hello::formatted::test();
@@ -13,5 +14,7 @@ fn main() {
 
     //primitives::prim::test()
     // primitives::tuple::test();
-    primitives::arr_slice::test();
+    //primitives::arr_slice::test();
+    custom_type::structures::test();
+
 }
