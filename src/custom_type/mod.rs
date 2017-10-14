@@ -9,3 +9,4 @@ pub mod mutability;
 pub mod literals;
 pub mod inference;
 pub mod aliasing;
+pub mod expressions;

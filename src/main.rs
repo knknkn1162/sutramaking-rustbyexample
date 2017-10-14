@@ -25,5 +25,6 @@ fn main() {
     //custom_type::mutability::test();
     //custom_type::literals::test();
     //custom_type::inference::test();
-    custom_type::aliasing::test();
+    //custom_type::aliasing::test();
+    custom_type::expressions::test();
 }
