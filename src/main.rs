@@ -20,6 +20,6 @@ fn main() {
     //custom_type::uses::test();
     //custom_type::clike::test();
     //custom_type::linked_list::test();
-    custom_type::constants::test();
-
+    //custom_type::constants::test();
+    custom_type::variable_bindings::test();
 }
