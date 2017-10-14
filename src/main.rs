@@ -23,5 +23,6 @@ fn main() {
     //custom_type::constants::test();
     //custom_type::variable_bindings::test();
     //custom_type::mutability::test();
-    custom_type::literals::test();
+    //custom_type::literals::test();
+    //custom_type::inference::test();
 }
