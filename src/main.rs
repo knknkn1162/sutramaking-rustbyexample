@@ -2,6 +2,7 @@ mod hello;
 mod primitives;
 mod custom_type;
 mod flow_control;
+mod destructuring;
 
 fn main() {
     //hello::formatted::test();
@@ -32,5 +33,7 @@ fn main() {
     //flow_control::returning_from_loops::test();
     // flow_control::whil::test();
     //flow_control::fo::test();
-    flow_control::mtch::test();
+    //flow_control::mtch::test();
+    //destructuring::tuples::test();
+    destructuring::enums::test();
 }
