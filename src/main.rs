@@ -36,5 +36,8 @@ fn main() {
     //flow_control::mtch::test();
     //destructuring::tuples::test();
     //destructuring::enums::test();
-    destructuring::pointers_ref::test();
+    //destructuring::pointers_ref::test();
+    //destructuring::structs::test();
+    //destructuring::guards::test();
+    destructuring::binding::test();
 }
