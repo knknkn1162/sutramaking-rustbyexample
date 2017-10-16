@@ -27,5 +27,5 @@ fn main() {
     //custom_type::literals::test();
     //custom_type::inference::test();
     //custom_type::aliasing::test();
-    custom_type::expressions::test();
+    //custom_type::expressions::test();
 }
