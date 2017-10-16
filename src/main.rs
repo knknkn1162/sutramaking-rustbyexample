@@ -31,5 +31,6 @@ fn main() {
     //flow_control::ifelse::test();
     //flow_control::returning_from_loops::test();
     // flow_control::whil::test();
-    flow_control::fo::test();
+    //flow_control::fo::test();
+    flow_control::mtch::test();
 }
