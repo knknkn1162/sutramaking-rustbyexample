@@ -30,6 +30,7 @@ pub fn test() {
 
     let consume = || {
         println!("movable : {:?}", movable);
+        // explicitly drop
         mem::drop(movable);
     };
 
