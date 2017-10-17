@@ -11,3 +11,4 @@ pub mod methods;
 pub mod closures;
 pub mod capturing;
 pub mod input_para;
+pub mod type_anonymity;
