@@ -16,7 +16,7 @@ fn apply_fnmut<F>(mut f: F) where
 
 
 fn apply_to_3<F>(f: F) -> i32 where
-    F: FnMut(i32) -> i32 {
+    F: Fn(i32) -> i32 {
         f(3)
 }
 
