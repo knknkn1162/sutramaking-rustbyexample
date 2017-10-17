@@ -44,5 +44,6 @@ fn main() {
     //destructuring::while_let::test();
     //destructuring::functions::test();
     //destructuring::methods::test();
-    destructuring::closures::test();
+    //destructuring::closures::test();
+    destructuring::capturing::test();
 }
