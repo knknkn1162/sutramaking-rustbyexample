@@ -8,3 +8,4 @@ pub mod iflet;
 pub mod while_let;
 pub mod functions;
 pub mod methods;
+pub mod closures;
