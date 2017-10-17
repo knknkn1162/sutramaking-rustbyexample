@@ -41,5 +41,7 @@ fn main() {
     //destructuring::guards::test();
     //destructuring::binding::test();
     // destructuring::iflet::test();
-    destructuring::while_let::test();
+    //destructuring::while_let::test();
+    //destructuring::functions::test();
+    destructuring::methods::test();
 }
