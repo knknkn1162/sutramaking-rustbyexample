@@ -5,3 +5,4 @@ pub mod structs;
 pub mod guards;
 pub mod binding;
 pub mod iflet;
+pub mod while_let;
