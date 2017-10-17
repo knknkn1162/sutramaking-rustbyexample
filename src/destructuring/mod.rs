@@ -13,3 +13,4 @@ pub mod capturing;
 pub mod input_para;
 pub mod type_anonymity;
 pub mod input_functions;
+pub mod output_parameters;

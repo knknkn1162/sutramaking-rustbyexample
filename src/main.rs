@@ -49,4 +49,5 @@ fn main() {
     //destructuring::input_para::test();
     //destructuring::type_anonymity::test();
     //destructuring::input_functions::test();
+    destructuring::output_parameters::test();
 }
