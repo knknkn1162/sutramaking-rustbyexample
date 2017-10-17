@@ -16,7 +16,7 @@ pub fn test() {
         println!("count : {}", count);
     };
     // cannot assign to `count` because it is borrowed
-    count += 1;
+    //count += 1;
 
     inc();
     inc();
