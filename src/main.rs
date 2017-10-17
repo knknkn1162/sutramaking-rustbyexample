@@ -39,5 +39,6 @@ fn main() {
     //destructuring::pointers_ref::test();
     //destructuring::structs::test();
     //destructuring::guards::test();
-    destructuring::binding::test();
+    //destructuring::binding::test();
+    destructuring::iflet::test();
 }
