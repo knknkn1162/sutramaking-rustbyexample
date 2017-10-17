@@ -6,5 +6,6 @@
 mod std_lib;
 
 fn main() {
-    std_lib::any::test();
+    //std_lib::any::test();
+    std_lib::find::test();
 }
