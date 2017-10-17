@@ -10,3 +10,4 @@ pub mod functions;
 pub mod methods;
 pub mod closures;
 pub mod capturing;
+pub mod input_para;

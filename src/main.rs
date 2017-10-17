@@ -45,5 +45,6 @@ fn main() {
     //destructuring::functions::test();
     //destructuring::methods::test();
     //destructuring::closures::test();
-    destructuring::capturing::test();
+    //destructuring::capturing::test();
+    destructuring::input_para::test();
 }
