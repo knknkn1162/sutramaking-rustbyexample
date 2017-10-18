@@ -10,5 +10,6 @@ fn main() {
     //std_lib::any::test();
     //std_lib::find::test();
     //std_lib::higher_order::test();
-    modules::visibility::test();
+    //modules::visibility::test();
+    //modules::struct_visilibity::test();
 }
