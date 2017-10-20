@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::traits::test();
+   generics::bounds::test();
 }
