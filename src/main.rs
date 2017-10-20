@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::implementation::test();
+   generics::traits::test();
 }
