@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::empty_bounds::test();
+   generics::multiple_bounds::test();
 }
