@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::multiple_bounds::test();
+   generics::where_clauses::test();
 }
