@@ -5,9 +5,9 @@
 //mod destructuring;
 //mod std_lib;
 //mod modules;
-mod attributes;
+//mod attributes;
+mod generics;
 
 fn main() {
-    //attributes::dead_code::test();
-    attributes::cfg::test();
+   generics::top::test();
 }
