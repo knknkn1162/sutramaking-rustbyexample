@@ -15,7 +15,7 @@ pub fn test() {
     let _ord_tuple2: OrdinaryTuple<char, f64> = OrdinaryTuple('Q', 3.4);
 
     // expected f32, found f64
-    println!("{}", _ord_tuple1==_ord_tuple2);
+    //println!("{}", _ord_tuple1==_ord_tuple2);
 
 
     let _tuple1: PhantomTuple<char, f32> = PhantomTuple('Q', PhantomData);
@@ -33,5 +33,5 @@ pub fn test() {
     };
 
     // mismatched types
-    println!("_tuple1 == _tuple2 yields: {}", _tuple1 == _tuple2);
+    //println!("_tuple1 == _tuple2 yields: {}", _tuple1 == _tuple2);
 }
