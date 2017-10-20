@@ -12,4 +12,5 @@ fn main() {
     //std_lib::higher_order::test();
     //modules::visibility::test();
     //modules::struct_visilibity::test();
+    modules::use_declaration::test();
 }
