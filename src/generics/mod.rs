@@ -10,3 +10,4 @@ pub mod newtype_idiom;
 pub mod trait_problem;
 pub mod associated_types;
 pub mod phantom_type;
+pub mod testcase;

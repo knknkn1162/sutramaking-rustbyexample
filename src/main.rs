@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::phantom_type::test();
+   generics::testcase::test();
 }
