@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::newtype_idiom::test();
+   generics::trait_problem::test();
 }
