@@ -6,3 +6,4 @@ pub mod bounds;
 pub mod empty_bounds;
 pub mod multiple_bounds;
 pub mod where_clauses;
+pub mod newtype_idiom;

@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::where_clauses::test();
+   generics::newtype_idiom::test();
 }
