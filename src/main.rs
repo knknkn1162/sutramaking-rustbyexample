@@ -9,5 +9,5 @@
 mod generics;
 
 fn main() {
-   generics::trait_problem::test();
+   generics::associated_types::test();
 }
