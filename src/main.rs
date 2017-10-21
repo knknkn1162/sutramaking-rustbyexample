@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::explicit_annotation::test();
+   scoping::functions::test();
 }
