@@ -11,3 +11,4 @@ pub mod explicit_annotation;
 pub mod functions;
 pub mod methods;
 pub mod structs;
+pub mod bounds;

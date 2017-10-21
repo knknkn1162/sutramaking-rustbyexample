@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::structs::test();
+   scoping::bounds::test();
 }
