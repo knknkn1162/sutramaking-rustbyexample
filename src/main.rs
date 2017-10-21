@@ -13,5 +13,5 @@ mod macro_rules;
 
 fn main() {
    //macro_rules::top::test();
-    macro_rules::repeat::test();
+    macro_rules::dry::test();
 }
