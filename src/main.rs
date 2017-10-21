@@ -11,5 +11,5 @@
 mod traits;
 
 fn main() {
-   scoping::elision::test();
+   traits::top::test();
 }
