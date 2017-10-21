@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::mutability::test();
+   scoping::borrowing::test();
 }
