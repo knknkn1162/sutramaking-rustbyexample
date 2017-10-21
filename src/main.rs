@@ -11,5 +11,5 @@
 mod traits;
 
 fn main() {
-   traits::operator_overloading::test();
+   traits::drop::test();
 }
