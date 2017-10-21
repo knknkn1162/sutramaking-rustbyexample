@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::ref_pattern::test();
+   scoping::lifetimes::test();
 }

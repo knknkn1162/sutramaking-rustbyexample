@@ -6,3 +6,4 @@ pub mod borrowing_mut;
 pub mod freezing;
 pub mod aliasing;
 pub mod ref_pattern;
+pub mod lifetimes;
