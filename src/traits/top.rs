@@ -46,9 +46,9 @@ impl Animal for Sheep {
 
 
 pub fn test() {
-    let mut dolly: Sheep = Animal::new("Dolly");
+    let dolly: Sheep = Animal::new("Dolly");
 
     dolly.talk();
-    dolly.shear();
+    //dolly.shear();
     dolly.talk();
 }
