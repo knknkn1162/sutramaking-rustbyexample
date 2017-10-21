@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::ownership::test();
+   scoping::mutability::test();
 }
