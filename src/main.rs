@@ -11,5 +11,5 @@
 mod traits;
 
 fn main() {
-   traits::drop::test();
+   traits::iterators::test();
 }
