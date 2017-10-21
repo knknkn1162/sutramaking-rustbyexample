@@ -11,5 +11,5 @@
 mod traits;
 
 fn main() {
-   traits::iterators::test();
+   traits::clone::test();
 }
