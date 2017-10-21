@@ -11,5 +11,5 @@
 mod traits;
 
 fn main() {
-   traits::top::test();
+   traits::derive::test();
 }
