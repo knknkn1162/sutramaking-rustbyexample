@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::borrowing_mut::test();
+   scoping::freezing::test();
 }
