@@ -7,3 +7,4 @@ pub mod freezing;
 pub mod aliasing;
 pub mod ref_pattern;
 pub mod lifetimes;
+pub mod explicit_annotation;

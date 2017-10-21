@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::lifetimes::test();
+   scoping::explicit_annotation::test();
 }
