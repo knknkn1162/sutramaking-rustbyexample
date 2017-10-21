@@ -12,3 +12,6 @@ pub mod functions;
 pub mod methods;
 pub mod structs;
 pub mod bounds;
+pub mod coercion;
+pub mod sta;
+pub mod elision;

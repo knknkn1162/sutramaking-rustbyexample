@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::bounds::test();
+   scoping::elision::test();
 }
