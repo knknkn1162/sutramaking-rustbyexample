@@ -7,7 +7,8 @@
 //mod modules;
 //mod attributes;
 //mod generics;
-mod scoping;
+//mod scoping;
+mod traits;
 
 fn main() {
    scoping::elision::test();
