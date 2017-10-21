@@ -8,8 +8,9 @@
 //mod attributes;
 //mod generics;
 //mod scoping;
-mod traits;
+//mod traits;
+mod macro_rules;
 
 fn main() {
-   traits::clone::test();
+   macro_rules::top::test();
 }
