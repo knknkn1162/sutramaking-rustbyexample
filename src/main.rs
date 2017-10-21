@@ -6,8 +6,9 @@
 //mod std_lib;
 //mod modules;
 //mod attributes;
-mod generics;
+//mod generics;
+mod scoping;
 
 fn main() {
-   generics::testcase::test();
+   scoping::ownership::test();
 }
