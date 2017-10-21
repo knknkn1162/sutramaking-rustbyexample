@@ -12,5 +12,6 @@
 mod macro_rules;
 
 fn main() {
-   macro_rules::top::test();
+   //macro_rules::top::test();
+    macro_rules::designators::test();
 }
