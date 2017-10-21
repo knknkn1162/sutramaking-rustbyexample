@@ -5,9 +5,10 @@
 //mod destructuring;
 //mod std_lib;
 //mod modules;
-mod attributes;
+//mod attributes;
+//mod generics;
+mod scoping;
 
 fn main() {
-    //attributes::dead_code::test();
-    attributes::cfg::test();
+   scoping::elision::test();
 }
