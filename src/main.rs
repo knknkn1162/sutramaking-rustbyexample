@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::freezing::test();
+   scoping::aliasing::test();
 }
