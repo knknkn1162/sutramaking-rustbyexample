@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::functions::test();
+   scoping::methods::test();
 }

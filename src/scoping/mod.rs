@@ -9,3 +9,4 @@ pub mod ref_pattern;
 pub mod lifetimes;
 pub mod explicit_annotation;
 pub mod functions;
+pub mod methods;
