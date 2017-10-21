@@ -10,5 +10,5 @@
 mod scoping;
 
 fn main() {
-   scoping::aliasing::test();
+   scoping::ref_pattern::test();
 }
