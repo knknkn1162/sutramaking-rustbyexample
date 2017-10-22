@@ -14,6 +14,6 @@
 mod std_type;
 
 fn main() {
-    std_type::strings::test();
+    std_type::option::test();
 
 }
