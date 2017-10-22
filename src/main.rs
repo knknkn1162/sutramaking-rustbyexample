@@ -13,6 +13,6 @@
 mod error_handling;
 
 fn main() {
-    error_handling::wrapping_errors::test();
+    error_handling::iterating_over_result::test();
 
 }
