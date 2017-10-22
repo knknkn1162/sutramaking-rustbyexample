@@ -23,7 +23,7 @@ pub fn test() {
     let point: Point = origin();
 
     let rectangle: Rectangle = Rectangle {
-        p1: Origin, p2: Origin,
+        p1: origin(), p2: origin(),
     };
 
     let boxed_rectangle: Box<Rectangle> = Box::new(
