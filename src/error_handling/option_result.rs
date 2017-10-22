@@ -8,9 +8,10 @@ fn double_first_v1(vec: &Vec<&str>)-> Option<Result<i32, ParseIntError>> {
 }
 
 fn double_first_v2(vec: &Vec<&str>)-> Result<Option<i32>, ParseIntError> {
+    // type => Option<Result<i32>, ParseIntError>
     let opt = vec.first().map(
         |first| first.parse::<i32>().map(|n| 2*n)
-    ); // type => Option<Result<i32>, ParseIntError>
+    );
     // fn map_or<U, F>(self, default: U, f: F) -> U where U = Result<i32, ParseIntError>
     // F: FnOnce(T) -> U
     let opt = opt.map_or(
