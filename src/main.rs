@@ -9,9 +9,10 @@
 //mod generics;
 //mod scoping;
 //mod traits;
-mod macro_rules;
+//mod macro_rules;
+mod error_handling;
 
 fn main() {
-   //macro_rules::top::test();
-    macro_rules::dry::test();
+    error_handling::iterating_over_result::test();
+
 }
