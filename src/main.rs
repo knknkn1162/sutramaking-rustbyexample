@@ -13,6 +13,6 @@
 mod error_handling;
 
 fn main() {
-    error_handling::introducing_question::test();
+    error_handling::option_result::test();
 
 }
