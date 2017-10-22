@@ -4,3 +4,4 @@ pub mod strings;
 pub mod option;
 pub mod results;
 pub mod question;
+pub mod panic;

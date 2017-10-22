@@ -14,6 +14,6 @@
 mod std_type;
 
 fn main() {
-    std_type::question::test();
+    std_type::panic::test();
 
 }
