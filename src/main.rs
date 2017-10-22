@@ -13,6 +13,6 @@
 mod error_handling;
 
 fn main() {
-    error_handling::map_for_result::test();
+    error_handling::introducing_question::test();
 
 }
