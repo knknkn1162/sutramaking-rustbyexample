@@ -7,3 +7,4 @@ pub mod question;
 pub mod panic;
 pub mod hashmap;
 pub mod custom_key_types;
+pub mod hashset;

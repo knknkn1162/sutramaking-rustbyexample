@@ -14,6 +14,6 @@
 mod std_type;
 
 fn main() {
-    std_type::custom_key_types::test();
+    std_type::hashset::test();
 
 }
