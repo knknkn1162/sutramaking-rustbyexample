@@ -14,6 +14,6 @@
 mod std_type;
 
 fn main() {
-    std_type::box_stack_heap::test();
+    std_type::vectors::test();
 
 }
