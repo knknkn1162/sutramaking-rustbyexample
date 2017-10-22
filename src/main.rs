@@ -10,9 +10,10 @@
 //mod scoping;
 //mod traits;
 //mod macro_rules;
-mod error_handling;
+//mod error_handling;
+mod std_type;
 
 fn main() {
-    error_handling::iterating_over_result::test();
+    std_type::hashset::test();
 
 }
