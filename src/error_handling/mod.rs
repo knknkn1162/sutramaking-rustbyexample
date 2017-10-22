@@ -6,3 +6,4 @@ pub mod result;
 pub mod map_for_result;
 pub mod introducing_question;
 pub mod option_result;
+pub mod defining_err;

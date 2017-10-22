@@ -13,6 +13,6 @@
 mod error_handling;
 
 fn main() {
-    error_handling::option_result::test();
+    error_handling::defining_err::test();
 
 }
