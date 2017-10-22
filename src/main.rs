@@ -13,7 +13,6 @@
 mod error_handling;
 
 fn main() {
-   //macro_rules::top::test();
-    //error_handling::option_unwrap::test();
-    error_handling::combinators::test();
+    error_handling::and_then::test();
+
 }
