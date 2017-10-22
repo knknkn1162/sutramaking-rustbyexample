@@ -24,10 +24,16 @@ impl error::Error for EmptyVec {
     }
 }
 
-fn double_first(vec: Vec<&str>)-> Result<i32> {
+fn double_first_v1(vec: &Vec<&str>)-> Result<i32> {
     vec.first()
         .ok_or_else(|| EmptyVec.into())
         .and_then(|s| s.parse::<i32>().map_err(|e| e.into()).map(|i| 2*i))
+}
+
+fn double_first_v2(vec: &Vec<&str>)-> Result<i32> {
+    let first = vec.first().ok_or(EmptyVec)?; // may raise "invalid first item to double"
+    let parsed = first.parse::<i32>()?; // Error : invalid digit found in string
+    Ok(2 * parsed)
 }
 
 fn print(result: Result<i32>) {
@@ -42,7 +48,11 @@ pub fn test() {
     let empty = vec![];
     let strings = vec!["tofu", "93", "18"];
 
-    print(double_first(numbers));
-    print(double_first(empty));
-    print(double_first(strings));
+    print(double_first_v1(&numbers));
+    print(double_first_v1(&empty));
+    print(double_first_v1(&strings));
+
+    print(double_first_v2(&numbers));
+    print(double_first_v2(&empty));
+    print(double_first_v2(&strings));
 }
