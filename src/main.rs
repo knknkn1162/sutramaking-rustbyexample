@@ -13,6 +13,6 @@
 mod error_handling;
 
 fn main() {
-    error_handling::and_then::test();
+    error_handling::result::test();
 
 }
