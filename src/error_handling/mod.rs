@@ -8,3 +8,4 @@ pub mod introducing_question;
 pub mod option_result;
 pub mod defining_err;
 pub mod boxing_errors;
+pub mod wrapping_errors;
