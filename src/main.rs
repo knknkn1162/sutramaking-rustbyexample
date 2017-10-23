@@ -11,9 +11,10 @@
 //mod traits;
 //mod macro_rules;
 //mod error_handling;
-mod std_type;
+//mod std_type;
+mod misc;
 
 fn main() {
-    std_type::hashset::test();
+    //misc::filesystem::test();
 
 }
