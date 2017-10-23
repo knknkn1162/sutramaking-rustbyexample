@@ -15,6 +15,6 @@
 mod misc;
 
 fn main() {
-    misc::channels::test();
+    misc::path::test();
 
 }
