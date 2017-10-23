@@ -16,5 +16,5 @@ mod misc;
 mod types;
 
 fn main() {
-    types::into_from::test();
+    types::to_from_string::test();
 }
