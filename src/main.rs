@@ -13,8 +13,8 @@
 //mod error_handling;
 //mod std_type;
 mod misc;
+mod types;
 
 fn main() {
-    //misc::filesystem::test();
-
+    types::to_from_string::test();
 }
