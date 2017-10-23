@@ -15,6 +15,6 @@
 mod misc;
 
 fn main() {
-    misc::path::test();
+    misc::open::test();
 
 }
