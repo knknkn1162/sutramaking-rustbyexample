@@ -15,6 +15,6 @@
 mod misc;
 
 fn main() {
-    misc::map_reduce::test();
+    misc::channels::test();
 
 }
