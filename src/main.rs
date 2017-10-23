@@ -15,6 +15,6 @@
 mod misc;
 
 fn main() {
-    misc::open::test();
+    misc::create::test();
 
 }
