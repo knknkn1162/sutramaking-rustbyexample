@@ -8,10 +8,11 @@ fn strconv(b: &[u8])->&str {
 mod tests {
     use super::*;
     #[test]
+    #[should_panic]
     fn strconv_test() {
         let b = "あいaib".as_bytes();
         let res = strconv(b);
 
-        assert_eq!("あいaib", res);
+        assert_ne!("あいaib", res);
     }
 }

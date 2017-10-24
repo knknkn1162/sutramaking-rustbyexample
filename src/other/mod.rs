@@ -5,3 +5,4 @@ pub mod option;
 pub mod switch_coin;
 pub mod file_open;
 pub mod strconv;
+pub mod add_t;
