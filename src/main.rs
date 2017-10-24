@@ -1,5 +1,6 @@
 mod other;
 
 fn main() {
-    other::processing_guess::test();
+    let res = other::slices::first_word("12345 67 8");
+    println!("{:?}", res);
 }
