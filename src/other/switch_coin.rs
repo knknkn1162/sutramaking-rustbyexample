@@ -1,11 +1,11 @@
 #[derive(Debug)] // So we can inspect the state in a minute
-enum UsState {
+pub enum UsState {
     Alabama,
     Alaska,
     // ... etc
 }
 
-enum Coin {
+pub enum Coin {
     Penny,
     Nickel,
     Dime,
