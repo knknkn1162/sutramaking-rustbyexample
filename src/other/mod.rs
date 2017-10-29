@@ -10,3 +10,4 @@ pub mod pattern_syntax;
 pub mod largest;
 pub mod point;
 pub mod sum;
+pub mod pair;
