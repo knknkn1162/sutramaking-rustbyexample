@@ -1,4 +1,3 @@
-#[test]
 pub fn test() {
     let x = 1;
 

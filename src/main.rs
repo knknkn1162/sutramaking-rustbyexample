@@ -1,4 +1,7 @@
 mod other;
+//use other::
 
-fn main(){}
+fn main() {
+
+}
 
